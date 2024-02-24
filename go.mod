@@ -1,6 +1,6 @@
 module github.com/oofoghlu/fuzzycrontab
 
-go 1.21.6
+go 1.20
 
 require (
 	github.com/onsi/ginkgo/v2 v2.15.0
