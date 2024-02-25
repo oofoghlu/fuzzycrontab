@@ -25,7 +25,7 @@ install-test-deps:
 
 .PHONY: build
 build: fmt vet
-	go build -o bin/fuzzycrontab ./pkg/fuzzycrontab/fuzzycrontab.go
+	go build -o bin/fuzzycrontab ./fuzzycrontab.go
 
 .PHONY: test
 test: fmt vet install-test-deps
